@@ -1,0 +1,65 @@
+void main() {
+  print("-------------------------MARKSHEET---------------------");
+  print("Candidate Name  :  Abdul Basit ");
+  print("Father's Name   :  Shadab ");
+  print("Class           :  1st Year ");
+  print("Year            :  2021-22");
+  print("College Name    :  SEZIST ");
+  print("");
+  
+    num english= 60;
+    num chemistry= 95;
+    num physics= 85;
+    num maths= 75;
+    num urdu= 65;
+  
+    num englishT= 100;
+    num chemistryT= 100;
+    num physicsT= 100;
+    num mathsT= 100;
+    num urduT= 100;
+  
+    
+  print("English=");
+  print(english);
+  print("Chemistry=");
+  print(chemistry);
+  print("Physics=");
+  print(physics);
+  print("Maths=");
+  print(maths);
+  print("Urdu=");
+  print(urdu);
+  print("");
+  
+  num obtainedmarks=english+chemistry+physics+maths+urdu;
+  print("Obtained Marks:");
+  print(obtainedmarks);
+ 
+  num obtainedmarksT=englishT+chemistryT+physicsT+mathsT+urduT;
+  print("Total Marks:");
+  print(obtainedmarksT);
+  print("");
+  num percentage=obtainedmarks*100/500;
+  print("Percentage: ");
+   print(percentage);
+  
+  print("");
+  if(percentage>=80){
+    print("A+ Grade");
+  }
+  else if(percentage>=70) {
+    print("A Grade");
+  }
+  else if(percentage>=60){
+    print("B Grade");
+  }
+  else if(percentage>=50){
+    print("C Grade");
+  }
+  else if(percentage>=40){
+    print("D Grade");
+  }
+    
+  
+}
